@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "Eu9P+c3yEAW+3SDsiZzYGpCn86/cqw/g8deJIqXeaII=",
+  "Source": "RedisApiDemo",
+  "BasePath": "_content/RedisApiDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RedisApiDemo\\wwwroot",
+      "Source": "RedisApiDemo",
+      "ContentRoot": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\",
+      "BasePath": "_content/RedisApiDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\index.html",
+      "SourceId": "RedisApiDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\",
+      "BasePath": "_content/RedisApiDemo",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c8fjmjhsay",
+      "Integrity": "JBpzS+kDN/PWWrDeGCIuLR+8j1nCS3XAYaUo1iU7SF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.c8fjmjhsay.html",
+      "AssetFile": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5057"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JBpzS+kDN/PWWrDeGCIuLR+8j1nCS3XAYaUo1iU7SF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c8fjmjhsay"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JBpzS+kDN/PWWrDeGCIuLR+8j1nCS3XAYaUo1iU7SF0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5057"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JBpzS+kDN/PWWrDeGCIuLR+8j1nCS3XAYaUo1iU7SF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JBpzS+kDN/PWWrDeGCIuLR+8j1nCS3XAYaUo1iU7SF0="
+        }
+      ]
+    }
+  ]
+}

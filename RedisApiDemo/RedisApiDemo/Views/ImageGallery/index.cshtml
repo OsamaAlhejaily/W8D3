@@ -1,0 +1,60 @@
+﻿@model List<RedisApiDemo.Models.ImageView>
+@{
+    ViewData["Title"] = "Lazy Image Gallery";
+}
+<h2>Lazy Loaded Image Gallery</h2>
+<style>
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+</style>
+<div class="gallery">
+    @foreach (var img in Model)
+    {
+        <div>
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                 data-src="@img.ImageUrl"
+                 class="gallery-img lazy"
+                 alt="@img.Title" />
+            <h4>@img.Title</h4>
+        </div>
+    }
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+        if ("IntersectionObserver" in window) {
+            let observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        let img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove("lazy");
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            lazyImages.forEach(function (img) {
+                observer.observe(img);
+            });
+        } else {
+            
+            lazyImages.forEach(function (img) {
+                img.src = img.dataset.src;
+            });
+        }
+    });
+</script>

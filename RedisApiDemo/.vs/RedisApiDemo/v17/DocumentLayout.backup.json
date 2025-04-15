@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\views\\imagegallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\views\\imagegallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\controllers\\imagegallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\controllers\\imagegallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\controllers\\postmemorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\controllers\\postmemorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\models\\imageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\models\\imageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\views\\imagegallery\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\views\\imagegallery\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\views\\_viewimports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\views\\_viewimports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\redisapidemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\redisapidemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|c:\\users\\oussama\\source\\repos\\redisapidemo\\redisapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC9946F4-BBFF-4DBD-BE9F-C07A38D7CFAB}|RedisApiDemo\\RedisApiDemo.csproj|solutionrelative:redisapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\PostController.cs",
+              "RelativeToolTip": "RedisApiDemo\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:46:02.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageGalleryController.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\ImageGalleryController.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Controllers\\ImageGalleryController.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\ImageGalleryController.cs",
+              "RelativeToolTip": "RedisApiDemo\\Controllers\\ImageGalleryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:31:27.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RedisApiDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:22:00.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\ImageGallery\\index.cshtml",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Views\\ImageGallery\\index.cshtml",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\ImageGallery\\index.cshtml",
+              "RelativeToolTip": "RedisApiDemo\\Views\\ImageGallery\\index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvy0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T11:35:48.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "RedisApiDemo\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\wwwroot\\index.html",
+              "RelativeToolTip": "RedisApiDemo\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-15T11:21:29.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Program.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Program.cs",
+              "RelativeToolTip": "RedisApiDemo\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:45:19.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostMemoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\PostMemoryController.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Controllers\\PostMemoryController.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Controllers\\PostMemoryController.cs",
+              "RelativeToolTip": "RedisApiDemo\\Controllers\\PostMemoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:11:48.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Models\\Post.cs",
+              "RelativeToolTip": "RedisApiDemo\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:44:13.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImageView.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Models\\ImageView.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Models\\ImageView.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Models\\ImageView.cs",
+              "RelativeToolTip": "RedisApiDemo\\Models\\ImageView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:53:38.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "RedisApiDemo\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T11:33:15.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\_ViewImports.cshtml.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Views\\_ViewImports.cshtml.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\_ViewImports.cshtml.cs",
+              "RelativeToolTip": "RedisApiDemo\\Views\\_ViewImports.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:36:43.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\ImageGallery\\index.cshtml.cs",
+              "RelativeDocumentMoniker": "RedisApiDemo\\Views\\ImageGallery\\index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\Views\\ImageGallery\\index.cshtml.cs",
+              "RelativeToolTip": "RedisApiDemo\\Views\\ImageGallery\\index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:39:33.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RedisApiDemo",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\RedisApiDemo.csproj",
+              "RelativeDocumentMoniker": "RedisApiDemo\\RedisApiDemo.csproj",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\RedisApiDemo.csproj",
+              "RelativeToolTip": "RedisApiDemo\\RedisApiDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-15T11:20:32.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "RedisApiDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Oussama\\source\\repos\\RedisApiDemo\\RedisApiDemo\\appsettings.json",
+              "RelativeToolTip": "RedisApiDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T10:45:03.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

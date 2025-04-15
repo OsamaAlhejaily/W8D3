@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic API Data Loading</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            margin-right: 5px;
+        }
+
+            .tab:hover {
+                background-color: #d0d0d0;
+            }
+
+            .tab.active {
+                background-color: #007bff;
+                color: white;
+            }
+
+        .content {
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+            border-radius: 0 0 4px 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .loader {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .data-source {
+            text-align: right;
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Posts Data</h1>
+
+        <div class="tabs">
+            <div class="tab active" data-source="redis">Redis Cache</div>
+            <div class="tab" data-source="memory">Memory Cache</div>
+        </div>
+
+        <div class="content">
+            <div id="data-container">
+                <div class="loader">Loading...</div>
+            </div>
+            <div id="data-source" class="data-source"></div>
+        </div>
+    </div>
+
+    <script>
+        const dataContainer = document.getElementById('data-container');
+        const dataSourceElement = document.getElementById('data-source');
+        const tabs = document.querySelectorAll('.tab');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                tabs.forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+
+                const source = this.getAttribute('data-source');
+                loadData(source);
+            });
+        });
+
+        function loadData(source) {
+            dataContainer.innerHTML = '<div class="loader">Loading...</div>';
+            dataSourceElement.textContent = '';
+
+            const endpoint = source === 'redis' ? '/api/post' : '/api/postmemory';
+
+            fetch(endpoint)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(response => {
+                    dataSourceElement.textContent = `Source: ${response.source}`;
+
+                    const tableHtml = generateTable(response.data);
+                    dataContainer.innerHTML = tableHtml;
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    dataContainer.innerHTML = `<p>Error loading data: ${error.message}</p>`;
+                });
+        }
+
+        function generateTable(data) {
+            if (!data || data.length === 0) {
+                return '<p>No data available.</p>';
+            }
+
+            const headers = Object.keys(data[0]);
+
+            let tableHtml = '<table>';
+
+            tableHtml += '<thead><tr>';
+            headers.forEach(header => {
+                const displayHeader = header.charAt(0).toUpperCase() + header.slice(1);
+                tableHtml += `<th>${displayHeader}</th>`;
+            });
+            tableHtml += '</tr></thead>';
+
+            tableHtml += '<tbody>';
+            data.forEach(item => {
+                tableHtml += '<tr>';
+                headers.forEach(header => {
+                    tableHtml += `<td>${item[header]}</td>`;
+                });
+                tableHtml += '</tr>';
+            });
+            tableHtml += '</tbody></table>';
+
+            return tableHtml;
+        }
+
+        loadData('redis');
+    </script>
+</body>
+</html>
